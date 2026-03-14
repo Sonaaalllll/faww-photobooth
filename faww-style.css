@@ -1,0 +1,222 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#ffe4ec,#ffd6e7);
+
+display:flex;
+justify-content:center;
+align-items:flex-start;
+
+min-height:100vh;
+
+padding-top:40px;
+padding-bottom:40px;
+
+}
+
+/* Main container */
+
+.container{
+
+background:#fff0f6;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+
+text-align:center;
+
+width:450px;
+
+}
+
+/* Title */
+
+.title{
+
+font-size:40px;
+
+letter-spacing:3px;
+
+margin-bottom:5px;
+
+margin-top:10px;
+
+color:#ff4d88;
+
+}
+
+/* Made by */
+
+.madeby{
+
+font-size:14px;
+
+color:#cc6699;
+
+margin-bottom:10px;
+
+font-style:italic;
+
+}
+
+/* Description */
+
+.info{
+
+font-size:14px;
+
+color:#666;
+
+margin-bottom:15px;
+
+}
+
+/* Camera */
+
+.camera-box{
+
+position:relative;
+
+}
+
+video{
+
+width:100%;
+
+border-radius:12px;
+
+border:6px solid #ffb6c1;
+
+}
+
+/* Countdown */
+
+#countdown{
+
+position:absolute;
+
+top:40%;
+left:50%;
+
+transform:translate(-50%,-50%);
+
+font-size:70px;
+
+color:white;
+
+font-weight:bold;
+
+text-shadow:2px 2px 10px black;
+
+}
+
+/* Photo counter */
+
+#photoCount{
+
+margin-top:10px;
+
+font-weight:bold;
+
+color:#cc3366;
+
+}
+
+/* Filters */
+
+.filters{
+
+margin-top:10px;
+
+}
+
+select{
+
+padding:8px;
+
+border-radius:6px;
+
+margin-top:5px;
+
+border:1px solid #ffb6c1;
+
+}
+
+/* Buttons */
+
+button{
+
+margin-top:15px;
+
+padding:12px 20px;
+
+background:#ff69b4;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+font-size:14px;
+
+}
+
+button:hover{
+
+background:#ff4da6;
+
+}
+
+/* Photostrip */
+
+#stripCanvas{
+
+margin-top:20px;
+
+background:#fff;
+
+border:20px solid #ffe4ec;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+/* Hidden canvas */
+
+canvas{
+
+display:none;
+
+}
+
+/* Download button */
+
+#download{
+
+display:none;
+
+}
+
+/* Footer */
+
+.footer{
+
+margin-top:20px;
+
+font-size:12px;
+
+color:#cc6699;
+
+}
