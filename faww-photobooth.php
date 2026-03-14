@@ -20,8 +20,7 @@
 <p class="madeby">Made by Sonal</p>
 
 <p class="info">
-A small experiment using the JavaScript Webcam API and Canvas
-to generate a vintage-style photostrip directly in the browser.
+PHOTOBOOTH
 </p>
 
 <div class="camera-box">
